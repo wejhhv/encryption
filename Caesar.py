@@ -1,4 +1,3 @@
-from minbc_lib.lfreq import *
 
 #シーザー暗号化
 def caesar_cipher(word ,key):
@@ -25,10 +24,6 @@ def caesar_solve(word):
             sentence+=chr(After)
         
         print(sentence)
-
-#caesar_solve(x)
-
-show_freq_graph()
 
 
 
