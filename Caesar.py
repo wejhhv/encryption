@@ -1,4 +1,3 @@
-
 #シーザー暗号化
 def caesar_cipher(word ,key):
     sentence=""
@@ -7,7 +6,7 @@ def caesar_cipher(word ,key):
     for i in word:
         Before=ord(i)+int(key)
         
-        #ここでは制御文字計１２７個を対象としている
+        #ここでは制御文字を含む127個を対象としている
         After=Before%127
         sentence+=chr(after)
         
